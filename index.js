@@ -1,6 +1,8 @@
 const Discord = require("discord.js")
 
-const TOKEN = "MTAyNjUzNTA4MzE3NzQxNDc1Ng.GQeUed.axkV66SAmoklnvE5rxnBSMjBD9dvz2RoufCT1c"
+const config = require('./config.json');
+
+const TOKEN = config.token
 
 const keep_alive = require('./keep_alive.js')
 
